@@ -1,0 +1,34 @@
+/* General Page Styles */
+body {
+    font-family: 'Times New Roman';
+    padding: 20px;
+    background-color: #ff6d6d; /* Default Gray */
+}
+
+/* SHARED STYLES: All boxes get these rules */
+.swatch {
+    height: 150px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid rgb(206, 112, 4); /* Default Border */
+    color: white; /* Default text color inside boxes */
+}
+
+/* UNIQUE STYLES: Update the HEX codes below */
+
+/* 1. Primary Color */
+.primary {
+    background-color: #4A5559; /* CHANGE THIS */
+}
+
+/* 2. Accent Color */
+.accent {
+    background-color: #E67E22; /* CHANGE THIS */
+}
+
+/* 3. Text/Light Color */
+.text {
+    background-color: #1A1C1E; /* CHANGE THIS */
+    color: rgb(255, 255, 255); /* Dark text for light background */
+}
